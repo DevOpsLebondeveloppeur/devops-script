@@ -1,0 +1,6 @@
+services:
+  frontend-app:
+    image: amineayedi/front-session16
+    container_name: frontend-app
+    ports:
+      - '3009:80'

@@ -1,6 +1,6 @@
 services:
   prometheus:
-    depends_on: [ node_exporter ] 
+    depends_on: [ node_exporter, cadvisor ] 
     #  cadvisor
     image: prom/prometheus
     container_name: prometheus
